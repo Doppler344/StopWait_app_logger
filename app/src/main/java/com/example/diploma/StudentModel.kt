@@ -10,7 +10,11 @@ data class StudentModel(
     companion object {
         fun getAutoId(): Int {
             val random = Random()
-            return random.nextInt()
+            var res = random.nextInt()
+            if (res < 0){
+                res *= -1
+            }
+            return res
         }
     }
 }

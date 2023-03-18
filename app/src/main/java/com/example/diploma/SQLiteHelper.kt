@@ -6,6 +6,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+
 class SQLiteHelper(context: Context) :
     SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
@@ -71,7 +72,8 @@ class SQLiteHelper(context: Context) :
                 stdList.add(std)
             }while (cursor.moveToNext())
         }
-
+        cursor.close()
+        db.close()
         return stdList
     }
 
