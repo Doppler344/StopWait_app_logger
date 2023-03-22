@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 **116 Часть II. Базовое программирование для Android**
+
 Запустите приложение, установите параметры (рис. 4.23) и нажмите кнопку ПУСК — вы увидите диалоговое окно и работающий в нем индикатор `ProgressBar` (рис. 4.24).
 
 ## <img alt="image_1.jpg" height="400" src="image_1.jpg" width="400"/>
