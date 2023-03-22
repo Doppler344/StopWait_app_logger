@@ -1,4 +1,4 @@
-# Sry for readme, its for my mark. If you're looking for a real readme, it's not here. it's not in the project either.
+# Sry for readme, its for my mark. If you're looking for a real readme, it's not here. it's not in the project either. :)
 
 
 
